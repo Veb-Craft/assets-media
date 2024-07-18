@@ -6,7 +6,7 @@ on:
       - release # or your default branch name
 
 jobs:
-  update assets-website:
+  update-assets-website:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout media-assets repo
